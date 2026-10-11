@@ -1,0 +1,101 @@
+{
+  "project": "THE ELECTRIC BUREAU",
+  "codename": "THE ALMOST ARCHIVE",
+  "research_checked": "2026-10-11",
+  "objects": [
+    {
+      "id": "stereoscope",
+      "title": "Stereoscope and stereograph",
+      "date_range": "1838 onward; popular handheld Holmes design from 1861; object-specific scanned example 1905-1920",
+      "inventors": [
+        { "name": "Charles Wheatstone", "role": "published an early binocular stereoscope in 1838" },
+        { "name": "David Brewster", "role": "developed/popularized compact public stereoscope" },
+        { "name": "Oliver Wendell Holmes", "role": "described a practical handheld viewer in 1861" }
+      ],
+      "manufacturer": "A. Mattey (French maker, founded 1872), for the Smithsonian 3D object 2017.111.16 only",
+      "original_purpose": "View paired images as an apparently three-dimensional scene, including photographs of distant places and events.",
+      "mechanism": "Two slightly different views are presented separately to the eyes through lenses; binocular fusion produces perceived depth.",
+      "historical_significance": "Stereographs became mass visual entertainment and domestic access to distant scenes; the underlying binocular principle persists in 3D imaging.",
+      "technology_afterlife": "Evolved through different viewer and image formats; not a failed invention.",
+      "museum_objects": [
+        { "institution": "Smithsonian National Museum of American History", "title": "Holmes Stereoscope", "id": "NMAH 994621", "date": "after 1861", "url": "https://americanhistory.si.edu/collections/object/nmah_994621" },
+        { "institution": "Smithsonian NMAAHC", "title": "Stereoscope by A. Mattey", "id": "2017.111.16", "date": "1905-1920", "url": "https://nmaahc.si.edu/object/nmaahc_2017.111.16" },
+        { "institution": "The Metropolitan Museum of Art", "title": "Stereoscope by Alex Beckers", "id": "Object 7901", "url": "https://www.metmuseum.org/art/collection/search/7901" }
+      ],
+      "assets": [
+        { "type": "3d_model", "object_id": "2017.111.16", "url": "https://3d.si.edu/object/3d/stereoscope%3A0f4ebbe5-7f32-4792-933c-296f328df4c5", "availability": "download available on the object-specific Smithsonian 3D page; file not downloaded/format inspected in this phase", "license": "media explicitly public domain/CC0; Smithsonian notes copy, modify, distribute without contacting it", "credit": "Suggested: Stereoscope, A. Mattey, 1905-1920, NMAAHC 2017.111.16, Smithsonian 3D. Attribution encouraged, not required by CC0.", "warning": "This is a 1905-1920 French viewer, not an 1859 or Holmes stereoscope." },
+        { "type": "image_candidate", "object_id": "Met 7901", "url": "https://www.metmuseum.org/art/collection/search/7901", "availability": "verify isPublicDomain=true and primaryImage in Met API before use", "license": "Met Open Access CC0 only if object/media record confirms public domain image" }
+      ],
+      "interaction": "Align two cleared views; expose paired-image mechanism and accessible depth toggle. Optional 3D inspection of the exact Mattey scan, labeled with its true date.",
+      "sources": ["https://www.si.edu/object/stereoscope-hand-held%3Ahac_1999.019", "https://www.metmuseum.org/art/collection/search/7901", "https://www.metmuseum.org/ja/essays/the-daguerreian-era-and-early-american-photography-on-paper-1839-1860"]
+    },
+    {
+      "id": "zoetrope",
+      "title": "Zoetrope (commercial cylindrical form)",
+      "date_range": "Horner's Daedaleum described 1833/1834; commercial zoetrope from the 1860s",
+      "inventors": [
+        { "name": "William George Horner", "role": "described the early Daedaleum concept" },
+        { "name": "William Ensign Lincoln", "role": "associated with the later US commercial patent/form, assigned to Milton Bradley" }
+      ],
+      "manufacturer": "Milton Bradley & Company for catalogued Smithsonian examples",
+      "original_purpose": "Optical entertainment and demonstration of apparent motion.",
+      "mechanism": "Sequential drawings arranged inside a rotating slotted drum are seen in brief successive glimpses through the slits, creating apparent motion.",
+      "historical_significance": "Popular optical toy and important precursor in animation history.",
+      "technology_afterlife": "Commercially popular as a toy; later adopted in art and education. The frame-and-view principle remains useful in explaining animation.",
+      "museum_objects": [
+        { "institution": "Smithsonian National Museum of American History", "title": "Zoetrope", "id": "PG.005087A", "url": "https://americanhistory.si.edu/collections/object/nmah_902717" },
+        { "institution": "Smithsonian National Museum of American History", "title": "Zoetrope by Milton Bradley with 32 image bands", "url": "https://americanhistory.si.edu/collections/object/nmah_760076" },
+        { "institution": "Cooper Hewitt, Smithsonian Design Museum", "title": "Zoetrope Strip: Dog Catching Ball", "id": "1958-46-1-e", "date": "1860", "url": "https://www.si.edu/object/zoetrope-strip-dog-catching-ball%3Achndm_1958-46-1-e" }
+      ],
+      "assets": [
+        { "type": "image", "object_id": "Cooper Hewitt 1958-46-1-e", "url": "https://www.si.edu/object/zoetrope-strip-dog-catching-ball%3Achndm_1958-46-1-e", "availability": "object image shown online", "license": "page states public domain; copying, modifying, distributing permitted", "credit": "Zoetrope Strip: Dog Catching Ball, Cooper Hewitt, Smithsonian Design Museum, 1958-46-1-e." },
+        { "type": "3d_model", "availability": "no object-specific Smithsonian 3D model verified", "license": "not applicable until an actual model is identified" }
+      ],
+      "interaction": "User-controlled frame stepping and slotted-drum animation, with static strip and reduced-motion alternatives.",
+      "sources": ["https://www.mhs.ox.ac.uk/exhibits/fancy-names-and-fun-toys/zoetrope/", "https://doi.org/10.1177/17468477221085412", "https://americanhistory.si.edu/collections/object/nmah_902717"]
+    },
+    {
+      "id": "tinfoil-phonograph",
+      "title": "Edison's tinfoil phonograph",
+      "date_range": "devised 1877; patent issued 1878",
+      "inventors": [{ "name": "Thomas Alva Edison", "role": "conceived and sketched the device" }],
+      "manufacturer": "John Kruesi, machinist, built the first working machine from Edison's sketch",
+      "original_purpose": "Developed from attempts to record/repeat telegraph signals and consider recording telephone speech; demonstrated as a novelty, with proposed dictation, music, teaching, and preservation uses.",
+      "mechanism": "A hand-cranked tinfoil-wrapped cylinder moves beneath a diaphragm and stylus. Sound vibrations emboss a vertical hill-and-dale groove; playback stylus follows it and vibrates the diaphragm.",
+      "historical_significance": "Established a working demonstration of sound recording and playback; drew immediate public attention.",
+      "technology_afterlife": "Fragile foil and difficult operation limited repeated use. Wax-cylinder refinements superseded the tinfoil form; sound recording continued and expanded.",
+      "museum_objects": [
+        { "institution": "Smithsonian National Museum of American History", "title": "Edison Tin Foil Phonograph", "id": "NMAH 855475", "url": "https://americanhistory.si.edu/collections/object/nmah_855475" },
+        { "institution": "Smithsonian National Museum of American History", "title": "Edison tin foil phonograph", "id": "NMAH 703497", "date": "1878", "url": "https://americanhistory.si.edu/collections/object/nmah_703497" }
+      ],
+      "assets": [
+        { "type": "image", "object_id": "NMAH 855475", "url": "https://americanhistory.si.edu/collections/object/nmah_855475", "availability": "online object record/media", "license": "specific media record states reuse without contacting Smithsonian (Open Access/CC0)", "credit": "Edison Tin Foil Phonograph, National Museum of American History, Smithsonian Institution, NMAH 855475." },
+        { "type": "3d_model", "availability": "no object-specific downloadable 3D model verified", "license": "not applicable until an actual model is identified" }
+      ],
+      "interaction": "Stylus/groove teaching simulation with clearly labeled synthesized sound; playback is not represented as archival Edison audio.",
+      "sources": ["https://www.loc.gov/static/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/history-of-the-cylinder-phonograph.html", "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/timeline/", "https://americanhistory.si.edu/collections/object/nmah_855475"]
+    },
+    {
+      "id": "pneumatic-postal-system",
+      "title": "Pneumatic postal tube system (city-specific networks)",
+      "date_range": "London postal tubes from 1863; Philadelphia US service from 1893; New York 1897-1953, interrupted 1918-1922",
+      "inventors": [{ "name": "Birney Clark Batcheller", "role": "engineer and patent holder associated with principal American postal tube process" }],
+      "manufacturer": "Private contractors including Tubular Dispatch Company in early New York service; network operators and contractors varied by city",
+      "original_purpose": "Move letters and small parcels rapidly between urban post offices, railway stations, and exchange points, avoiding congested streets.",
+      "mechanism": "A sealed canister carrying mail travels through a tube using pressure or vacuum from station machinery; routing stations direct carriers to destination points.",
+      "historical_significance": "A genuinely used and high-volume urban mail transport infrastructure. New York's system grew to about 27 miles and carried millions of letters.",
+      "technology_afterlife": "US mail systems closed amid high operating costs, fixed infrastructure, and changing transport economics; New York service ended Dec. 31, 1953. Pneumatic conveyance continues in other modern settings.",
+      "museum_objects": [
+        { "institution": "Smithsonian National Postal Museum", "title": "Pneumatic tube canister", "id": "NPM 0.269514.1", "url": "https://postalmuseum.si.edu/object/npm_0.269514.1" },
+        { "institution": "Library of Congress", "title": "N.Y. Post Office—Pneumatic Tube", "id": "Bain 17144 / 2014697406", "date": "c. 1914-1915", "url": "https://www.loc.gov/item/2014697406/" }
+      ],
+      "assets": [
+        { "type": "image", "object_id": "Bain 17144", "url": "https://www.loc.gov/item/2014697406/", "availability": "digital derivatives listed by LOC", "license": "specific rights status unresolved; LOC says user must assess copyright/donor/other restrictions", "credit": "George Grantham Bain Collection, Library of Congress, Prints and Photographs Division, LC-DIG-ggbain-17144.", "status": "do not publish pending rights review" },
+        { "type": "image", "object_id": "NPM 0.269514.1", "url": "https://postalmuseum.si.edu/object/npm_0.269514.1", "availability": "image visible on object record", "license": "no CC0 grant confirmed; request/verify media rights", "status": "permission/rights review needed" },
+        { "type": "3d_model", "availability": "no object-specific downloadable 3D model verified", "license": "not applicable until an actual model is identified" }
+      ],
+      "interaction": "Map-based city route and carrier journey with documented era and stations; no reconstructed full network or undocumented speed claims.",
+      "sources": ["https://postalmuseum.si.edu/exhibition/customers-and-communities-serving-the-cities-city-free-delivery/pneumatic-tube-mail", "https://postalmuseum.si.edu/collections/object-spotlight/pneumatic-tube-canister", "https://www.loc.gov/item/2014697406/", "https://www.smithsonianmag.com/history/when-a-labyrinth-of-pneumatic-tubes-shuttled-mail-beneath-the-streets-of-new-york-city-180983472/"]
+    }
+  ]
+}
